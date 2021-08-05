@@ -1,0 +1,13 @@
+st = "EDUCATION IS A GOOD THING, IT IS GOOD TO BE EDUCATED."
+length = len(st)
+capital = st.capitalize()
+rep = st.replace('GOOD','BETTER')
+endwit = st.endswith(".")
+count = st.count("GOOD")
+find = st.find("GOOD")
+print("Length of the String ",length)
+print("Capitalize words ", capital)
+print("Replace words ", rep)
+print("Endwith ", endwit)
+print("Count of words ",count)
+print("Find ", find)
